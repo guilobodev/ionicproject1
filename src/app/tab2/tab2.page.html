@@ -1,17 +1,101 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 2
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <app-explore-container name="Tab 2 page"></app-explore-container>
-</ion-content>
+<ion-menu side="end" contentId="main-content">
+    <ion-header>
+      <ion-toolbar>
+        <ion-title class="titulo">Menu</ion-title>
+      </ion-toolbar>
+    </ion-header>
+    <ion-content class="ion-padding2">
+        <ion-card class="contentmenu">
+            <img class="menuimg"
+              alt="jogador"
+              src="https://cdn-icons-png.flaticon.com/512/805/805401.png"/>
+            <ion-card-header>
+              <ion-card-title style="font-size: 20px;">jogadores</ion-card-title>
+            </ion-card-header>
+            <ion-button fill="clear" style="font-size: 12px;">Ver jogadores</ion-button>
+            <br>
+            <img class="menuimg"
+            style="margin-top: 13px;"
+              alt="jogos"
+              src="https://cdn-icons-png.flaticon.com/512/77/77305.png"/>
+            <ion-card-header>
+              <ion-card-title style="font-size: 20px;">jogos</ion-card-title>
+            </ion-card-header>
+            <ion-button fill="clear" style="font-size: 12px;">Ver jogos</ion-button>
+          </ion-card>
+        </ion-content>
+  </ion-menu>
+  <div class="ion-page" id="main-content">
+    <ion-header>
+      <ion-toolbar>
+        <ion-title class="titlecamp">Campeonatos</ion-title>
+        <ion-buttons slot="end">
+          <ion-menu-button></ion-menu-button>
+        </ion-buttons>
+      </ion-toolbar>
+    </ion-header>
+    <ion-content class="ion-padding">  <!-- Card 01 -->
+        <ion-card>
+          <img class="ligas"
+            alt="premier league"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGtcGzNVnyB2Jg4TafkzS3ReXRntAMyFIG9wa_0Gvy&s"
+          />
+          <ion-card-header>
+            <ion-card-title
+              >Premier League</ion-card-title
+            >
+            <ion-card-subtitle
+              >Campeonato Inglês</ion-card-subtitle
+            >
+          </ion-card-header>
+    
+          <ion-card-content>
+            A Premier League é a principal liga de futebol da Inglaterra, fundada em 1992, com 20 clubes competitivos, incluindo equipes renomadas como Manchester United e Liverpool. Reconhecida por seu jogo físico, é uma das ligas mais assistidas globalmente, conhecida pela atmosfera intensa nos estádios e sucesso comercial.
+          </ion-card-content>
+          <ion-button fill="clear">Participar</ion-button>
+        </ion-card>
+    
+        <!-- Card 02 -->
+        <ion-card>
+          <img class="ligas"
+            alt="La liga"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNoy4NFiIu_87cvswRS2vOwqSEAG4MIPcz5RHE78Q&s"
+          />
+          <ion-card-header>
+            <ion-card-title
+              >La Liga</ion-card-title
+            >
+            <ion-card-subtitle
+              >Campeonato Espanhol</ion-card-subtitle
+            >
+          </ion-card-header>
+    
+          <ion-card-content>
+            A La Liga é a principal liga de futebol da Espanha, composta por 20 clubes notáveis, destacando-se pela técnica e arte no jogo. Fundada em 1929, é liderada por equipes como o FC Barcelona e o Real Madrid. A liga é famosa por suas rivalidades intensas e jogadores talentosos, sendo uma das mais assistidas globalmente.
+          </ion-card-content>
+          <ion-button fill="clear">Participar</ion-button>
+        </ion-card>
+    
+        <!-- Card 03 -->
+        <ion-card>
+          <img class="ligas"
+            alt="bundesliga"
+            src="https://upload.wikimedia.org/wikipedia/pt/f/f9/Bundesliga_logo_%282017%29.png"
+          />
+          <ion-card-header>
+            <ion-card-title
+              >Bundesliga</ion-card-title
+            >
+            <ion-card-subtitle
+              >Campeonato Alemão</ion-card-subtitle
+            >
+          </ion-card-header>
+    
+          <ion-card-content>
+            A Bundesliga é a principal liga de futebol da Alemanha, composta por 18 clubes. Fundada em 1963, é conhecida por seu jogo dinâmico e alta qualidade técnica. O Bayern de Munique é um destaque, e a liga tem uma sólida reputação internacional. A atmosfera nos estádios é vibrante, atraindo grande público. A Bundesliga também é uma fonte significativa de talentos no futebol mundial.
+          </ion-card-content>
+          <ion-button fill="clear">Participar</ion-button>
+        </ion-card>
+    
+ </ion-content>
+  </div>

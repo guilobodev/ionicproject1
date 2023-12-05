@@ -1,0 +1,51 @@
+<ion-content [fullscreen]="true">
+  <div class="img">
+    <img
+      class="logo"
+      src="https://raw.githubusercontent.com/V1ct0rSb/CampeonatoFabtech/main/assets/img/logo.png"
+      alt="Minha Imagem"
+    />
+  </div>
+
+  <div class="welcome">
+    <p>Conecte-se e mergulhe no mundo do futebol</p>
+  </div>
+
+  <!-- Input de EMAIL -->
+  <ion-input
+    class="email"
+    type="email"
+    fill="solid"
+    label="Email"
+    labelPlacement="floating"
+    helperText="Insira um e-mail válido"
+    errorText="E-mail inválido"
+    email
+  ></ion-input>
+
+  <!-- Input de Senha -->
+  <ion-input
+    class="senha"
+    type="password"
+    fill="solid"
+    label="Senha"
+    labelPlacement="floating"
+    helperText="Insira uma senha válida"
+    errorText="Senha inválida"
+    password
+  ></ion-input>
+
+  <div class="botao">
+    <ion-button
+      class="entrar"
+      color="dark"
+      shape="round"
+      >Entrar</ion-button
+    >
+  </div>
+
+  <div class="esqueceu">
+    <p>Esqueceu a senha?</p>
+    <p>Criar nova conta</p>
+  </div>
+</ion-content>

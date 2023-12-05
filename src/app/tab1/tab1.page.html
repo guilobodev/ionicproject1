@@ -1,17 +1,168 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>
-      Tab 1
-    </ion-title>
+    <div style="float: left;">
+       <img style="width: 70px; margin-left: 10px;" src="https://raw.githubusercontent.com/V1ct0rSb/CampeonatoFabtech/main/assets/img/logo.png" alt=""> 
+    </div>
+    <ion-buttons slot="end">
+      <ion-button>
+        <ion-icon size="large" color="dark" name="person"></ion-icon>
+      </ion-button>
+      <ion-button>
+        <ion-icon size="large" color="dark" name="search"></ion-icon>
+      </ion-button>
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title class="titulocard">Campeonato 1 </ion-card-title>
+    </ion-card-header>
+  
+    <ion-card-content>
+      <div class="container">
+        <div>
+          
+          <div class="img">
+            <ion-icon style="font-size: 100px;" name="shield-outline"></ion-icon>
+            <!-- <img src="https://png.pngtree.com/png-clipart/20190617/original/pngtree-vector-shield-icon-png-image_3876639.jpg" alt="" style="width: 100px;"> -->
+            <p>Barcelona</p>
+            
+          </div>
+        </div>
+        
+        <div>
+          <ion-icon style="font-size: 70px; padding-top: 35px;" name="close-outline"></ion-icon>
+          <!-- <img style="width: 50px; padding-top: 38px;" src="https://img.freepik.com/fotos-gratis/textura-cartaz-desenho-lona-criativo_1194-8218.jpg?size=626&ext=jpg&ga=GA1.1.1826414947.1699747200&semt=sph" alt="">  -->
+        </div>
+        <div class="img">
+          <ion-icon style="font-size: 100px;" name="shield-outline"></ion-icon>
+          <p>Real Madrid</p>
+        </div>
+      </div>
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title class="titulocard">Artilharia do campeonato</ion-card-title>
+    </ion-card-header>
+  
+    <ion-card-content>
+      <div class="container">
+        <div>
+          
+          <div class="img">
+            <ion-icon style="font-size: 100px; margin-left: 5px;" name="person-outline"></ion-icon>
+            <!-- <img src="https://cdn-icons-png.flaticon.com/512/805/805401.png" alt="" style="width: 100px;"> -->
+            <p>Cristiano Ronaldo</p>
+            
+          </div>
+        </div>
+        
+        <div>
+          
+          <div class="img">
+            <ion-icon style="font-size: 100px; margin: 5px;" name="person-outline"></ion-icon>
+            <!-- <img style="width: 100px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRNSpAeI3G1BJd4EJYFgay6BfjYiKU0KFrad1usis&s" alt="" > -->
+            <p>Pedri</p>
+          </div>
+        </div>
+        <div class="img">
+          <ion-icon style="font-size: 100px; margin-left: 5px;" name="person-outline"></ion-icon>
+          <!-- <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr3GoCCHnX160lJW3Qece0p6k0CbaLd3HV-Q&usqp=CAU" alt="" style="width: 100px;"> -->
+          <p>De Gea</p>
+        </div>
+      </div>
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title class="titulocard">Classificação do Campeonato 1 </ion-card-title>
+    </ion-card-header>
+  
+    <ion-card-content>
+      <div class="table-responsive">
+        <table>
+          <thead>
+              <tr>
+                  <th>Posição</th>
+                  <th>Time</th>
+                  <th>P</th>
+                  <th>J</th>
+                  <th>V</th>
+                  <th>E</th>
+                  <th>D</th>
+                  <th>GP</th>
+                  <th>GC</th>
+                  <th>SG</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr>
+                  <td>1</td>
+                  <td>Flamengo</td>
+                  <td>28</td>
+                  <td>10</td>
+                  <td>9</td>
+                  <td>1</td>
+                  <td>0</td>
+                  <td>25</td>
+                  <td>5</td>
+                  <td>+20</td>
+              </tr>
+               <tr>
+                  <td>2</td>
+                  <td>Real Madrid</td>
+                  <td>25</td>
+                  <td>10</td>
+                  <td>7</td>
+                  <td>3</td>
+                  <td>2</td>
+                  <td>22</td>
+                  <td>2</td>
+                  <td>+18</td>
+              </tr>
+               <tr>
+                  <td>3</td>
+                  <td>Fluminense</td>
+                  <td>28</td>
+                  <td>10</td>
+                  <td>9</td>
+                  <td>1</td>
+                  <td>0</td>
+                  <td>25</td>
+                  <td>5</td>
+                  <td>+20</td>
+              </tr>
+               <tr>
+                  <td>4</td>
+                  <td>Milan</td>
+                  <td>28</td>
+                  <td>10</td>
+                  <td>9</td>
+                  <td>1</td>
+                  <td>0</td>
+                  <td>25</td>
+                  <td>5</td>
+                  <td>+20</td>
+              </tr>
+               <tr>
+                  <td>5</td>
+                  <td>Vasco</td>
+                  <td>28</td>
+                  <td>10</td>
+                  <td>9</td>
+                  <td>1</td>
+                  <td>0</td>
+                  <td>25</td>
+                  <td>5</td>
+                  <td>+20</td>
+              </tr>
+        
+          </tbody>
+            </table>
+      </div>
+    </ion-card-content>
+  </ion-card>
 </ion-content>

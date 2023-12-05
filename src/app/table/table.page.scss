@@ -1,0 +1,31 @@
+.tabela {
+    font-family: Arial, sans-serif;
+}
+.titulocard {
+    font-weight: bold;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+h2 {
+  text-align: center;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 5px;
+}
